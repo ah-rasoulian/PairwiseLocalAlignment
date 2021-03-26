@@ -17,7 +17,7 @@ Regrading traceback, when scores are equal, following order is considered.
 2. returning from top
 3. returning from match/miss-match state
 
-* and, result will be returned as soon as it gets a 0 in a cell.
+* And the result will be returned as soon as it gets a 0 in a cell.
 
 some examples:
 1. <b>input:</b><br>MEANLYPRTEINSTRING<br>PLEASANTLYEINSTEIN<br><br>
