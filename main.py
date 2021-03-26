@@ -146,7 +146,7 @@ def main():
     # print_matrix(alignment_matrix)  # -----------------------------
 
     # print maximum alignment score
-    print(alignment_matrix[maximum_cell_location[0]][maximum_cell_location[1]].value)
+    print(int(alignment_matrix[maximum_cell_location[0]][maximum_cell_location[1]].value))
     # now trace back to find alignment
     first_protein_alignment = ""
     second_protein_alignment = ""
