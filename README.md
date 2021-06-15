@@ -20,9 +20,29 @@ Regrading traceback, when scores are equal, following order is considered.
 * And the result will be returned as soon as it gets a 0 in a cell.
 
 some examples:
-1. <b>input:</b><br>MEANLYPRTEINSTRING<br>PLEASANTLYEINSTEIN<br><br>
-<b>output:</b><br>23<br>LYPRTEINSTRIN<br>LY---EINSTEIN
+1. <b>input:</b>
+```
+MEANLYPRTEINSTRING
+PLEASANTLYEINSTEIN
+```
+
+output:
+```
+23
+LYPRTEINSTRIN
+LY---EINSTEIN
+```
    
 
-2. <b>input:</b><br>HEAGAWGHE<br>PAWHEA<br><br>
-<b>output:</b><br>24<br>AWGHE<br>AW-HE
+2. <b>input:</b>
+```
+HEAGAWGHE
+PAWHEA
+```
+
+<b>output:
+```
+24
+AWGHE
+AW-HE
+```
